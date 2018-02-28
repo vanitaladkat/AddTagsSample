@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func printTagsBtnAction(_ sender: UIButton) {
-        print(tagsSrollView.allTagsSeparated(with: ","))
+        print(tagsSrollView.allTagsSeparated(with: ",") ?? "")
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
